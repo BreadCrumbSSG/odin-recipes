@@ -1,0 +1,35 @@
+* {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(0, 119, 255);
+    transition: font-size .5s ease-out;
+}
+
+#title:hover {
+    font-size: 50px;
+    animation: change-color 2s infinite;
+}
+
+@keyframes change-color {
+    0% {
+        color: rgb(0, 119, 255);
+    }
+
+    25% {
+        color: rgb(17, 182, 80);
+    }
+
+    50% {
+        color: rgb(226, 153, 16);
+    }
+
+    75% {
+        color: rgb(177, 18, 177);
+    }
+}
